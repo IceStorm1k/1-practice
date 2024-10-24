@@ -1,0 +1,54 @@
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Bellota Text';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/bellota-text-v18-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+ /* bellota-text-700 - cyrillic_latin */
+ @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Bellota Text';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/bellota-text-v18-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+body{
+	font-family: 'Bellota Text';
+	background: #dbdbdb;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 50%;
+	margin: 0 auto;
+}
+.hello{
+	text-align: center;
+	font-family: 'Bellota Text';
+	font-weight: 700;
+}
+.year{
+	font-size: 250%;
+}
+.challenge{
+	text-align: center;
+	text-decoration: underline;
+}
+.datee{
+	text-align: center;
+}
+ul{
+	list-style: none;
+	width: 100%;
+	display: flex;
+	gap: 2px;
+	flex-direction: column;
+	li{
+		font-size: 20px;
+		padding:10px 20px;
+		background-color: rgb(253, 94, 83);
+	}
+}
